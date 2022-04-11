@@ -1,0 +1,78 @@
+name: jci
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  platform: ^3.1.0
+
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.13
+  http: ^0.13.4
+  transparent_image: ^2.0.0
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  bot_toast: ^4.0.1
+  pull_to_refresh: ^2.0.0
+  date_format: ^2.0.5
+  logger: ^1.1.0
+  image_picker: ^0.8.4+11
+  modal_bottom_sheet: ^2.0.1
+  url_launcher: ^6.0.20
+  syncfusion_flutter_charts: ^19.4.56
+  month_picker_dialog: ^0.4.0
+  data_table_2: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter_launcher_name:
+  name: "POSE QS"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/src/assets/images/
+    
+  fonts:
+  - family: kanit
+    fonts:
+      - asset: lib/src/assets/fonts/kanit_medium.ttf
+      - asset: lib/src/assets/fonts/kanit_regular.ttf
+
+  - family: sans_thai
+    fonts:
+      - asset: lib/src/assets/fonts/sans_thai_medium.ttf
+      - asset: lib/src/assets/fonts/sans_thai_regular.ttf
+
+  - family: poppins
+    fonts:
+      - asset: lib/src/assets/fonts/Poppins-Medium.ttf
+      - asset: lib/src/assets/fonts/Poppins-Regular.ttf
