@@ -94,7 +94,7 @@ class _SterilePageState extends State<SterilePage> {
                                       globalKey: _one,
                                       description:
                                           Constants.STERILE_TEXT_POINT1,
-                                      page: SterilePage()),
+                                      page: SterileDetailPage()),
                                 ),
                               ),
                               Positioned(
@@ -107,7 +107,7 @@ class _SterilePageState extends State<SterilePage> {
                                       globalKey: _two,
                                       description:
                                           Constants.STERILE_TEXT_POINT2,
-                                      page: SterilePage()),
+                                      page: SterileDetailPage()),
                                 ),
                               ),
                               Positioned(
@@ -120,7 +120,7 @@ class _SterilePageState extends State<SterilePage> {
                                       globalKey: _three,
                                       description:
                                           Constants.STERILE_TEXT_POINT3,
-                                      page: SterilePage()),
+                                      page: SterileDetailPage()),
                                 ),
                               ),
                               Positioned(
@@ -133,7 +133,7 @@ class _SterilePageState extends State<SterilePage> {
                                       globalKey: _flour,
                                       description:
                                           Constants.STERILE_TEXT_POINT4,
-                                      page: SterilePage()),
+                                      page: SterileDetailPage()),
                                 ),
                               )
                             ],
