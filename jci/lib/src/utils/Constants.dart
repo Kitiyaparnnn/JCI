@@ -38,6 +38,10 @@ class Constants {
   static const String STERILE_TEXT_POINT3 = "Drying Cabinet";
   static const String STERILE_TEXT_POINT4 = "Triple sink";
 
+  static const String TEXT_DETAIL =
+      "A drying cabinnet is today usually an electrical machine designed to expedite the drying of items";
+  static const String TEXT_DESCRIBE =
+      "Lorem ipsum dolor sit amet. Vel rerum atque quo aliquam esse nam veritatis omnis aut sint similique. Qui natus recusandae 33 ducimus provident qui repudiandae aperiam in quae magnam quo fuga mollitia. ";
   //dirty
   static const String DIRTY_TEXT_POINT1 =
       "Utilities Room Electric Box \nRO System Air Compressor";

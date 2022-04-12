@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage>
                       _buildTitle(),
                       const SizedBox(height: 30),
                       _buildForm(context),
-                      const SizedBox(height: 30),
+                      const SizedBox(height: 50),
                       _loading()
                     ],
                   ),

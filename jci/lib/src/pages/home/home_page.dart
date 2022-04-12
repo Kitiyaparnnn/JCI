@@ -268,7 +268,7 @@ class _HomePageState extends State<HomePage> {
         onTap: () => _menuRoute(page: page),
         child: Container(
           height: double.maxFinite,
-          padding: EdgeInsets.only(left: 12, top: 14, right: 10, bottom: 14),
+          padding: EdgeInsets.only(left: 12, top: 14, right: 10, bottom: 20),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
